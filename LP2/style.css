@@ -1,0 +1,120 @@
+/* Estilos gerais */
+body {
+       font-family: 'Raleway', sans-serif;
+       color: #333;
+       line-height: 1.6;
+   }
+   
+   h1, h2 {
+       color: #000000;
+   }
+   p{
+       font-weight: bold;
+       color: #000000;
+   }
+   
+   header {
+       background-color: #b51414;
+       color: #fff;
+       padding: 30px;
+       text-align: center;
+   }
+   
+   section.motos {
+       display: flex;
+       justify-content: space-around;
+       margin: 50px 0;
+   }
+   
+   .moto {
+       width: 30%;
+       padding: 20px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       text-align: center;
+   }
+   
+   .moto img {
+       width: 100%;
+       height: auto;
+   }
+   
+   footer {
+       background-color: #b51414;
+       color: #fff;
+       padding: 20px;
+       text-align: center;
+   }
+
+   #contact-form {
+
+       max-width: 800px;
+   
+       margin: 0 auto;
+   
+       padding: 20px;
+   
+       background-color: #fff;
+   
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+   }
+   
+   
+   .form-group {
+   
+       margin-bottom: 20px;
+   
+   }
+   
+   
+   #contact-form label {
+   
+       display: block;
+   
+       margin-bottom: 5px;
+   
+   }
+   
+   
+   #contact-form input, #contact-form textarea {
+   
+       width: 100%;
+   
+       padding: 10px;
+   
+       font-size: 16px;
+   
+   }
+   
+   
+   #contact-form textarea {
+   
+       resize: vertical;
+   
+       min-height: 100px;
+   
+   }
+   
+   
+   #contact-form button {
+   
+       background-color: #007BFF;
+   
+       color: #fff;
+   
+       padding: 10px 20px;
+   
+       font-size: 16px;
+   
+       border: none;
+   
+       cursor: pointer;
+   
+   }
+   
+   
+   #contact-form button:hover {
+   
+       background-color: #0056b3;
+   
+   }
